@@ -4,12 +4,12 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "name" {
-    bucket = "cskkingsdfghhjjh"
+    bucket = "cskkingsdfghhjjhrerree"
   
 }
 
 resource "aws_dynamodb_table" "dynamolockingsystem" {
-    name = "dynamotable"
+    name = "dynamotableererer"
     hash_key = "LockID"
     read_capacity = "20"
     write_capacity = "20"
