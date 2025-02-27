@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "name" {
 }
 
 resource "aws_dynamodb_table" "dynamolockingsystem" {
-    name = "dynamotableererer"
+    name = "dynamo"
     hash_key = "LockID"
     read_capacity = "20"
     write_capacity = "20"
